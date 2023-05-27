@@ -56,3 +56,14 @@ function solution(my_string) {
   return answer.join("");
 }
 //명근식 무지성 풀이
+
+function solution(my_string) {
+    const mo = ['a', 'e', 'i', 'o', 'u'];
+    
+    for (let i = 0; i < mo.length; i++) {
+        my_string = my_string.replaceAll(mo[i], "");
+    }
+    
+    return my_string;
+}
+// 수정사항

@@ -2,7 +2,7 @@
 // 1. 반복문 사용
 function solution(n) {
   var answer = 2;
-  for(let i =1; i<n; i++){
+  for(let i =1; i<n/2; i++){
       let j = i*i;
       if(n == j){
           answer = 1;

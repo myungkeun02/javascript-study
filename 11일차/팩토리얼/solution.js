@@ -12,3 +12,6 @@ function solution(n) {
     }
   }
 }
+
+
+//재귀함수 이용
